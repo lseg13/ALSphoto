@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS</title>
+    <link rel="stylesheet" href="header.css">
+    <style>
+        img {
+            max-width: 24%;
+            height: auto;
+            display: inline;
+        }
+
+        section {
+            background-color: rgb(255, 255, 255);
+            margin-left: 30px;
+            text-align: center;
+        }
+
+        section h1 {
+            font-style: italic;
+            font-size: xxx-large;
+            font-weight: 100;
+            text-decoration: none;
+        }
+
+        section img {
+            border: solid 3px black;
+        }
+
+        section h1:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .profil {
+            background-color: white;
+            border-radius: 10px;
+            padding: 200px;
+            text-align: center;
+            justify-content: center;
+            width: 300px;
+        }
+        .profil img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .contact {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.5s;
+            border: 2px solid black;
+        }
+        .contact:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+        div, h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ALS_PHOTOGRAPHIE</h1>
+        <ul>
+            <li><a href="general.html">GENERAL</a></li>
+            <li>
+                <div class="menu-deroulant">
+                    <div class="menu">
+                        CATEGORIE
+                        <div class="sous-menu">
+                            <a href="2023-2024.html" class="annee">2023-2024</a>
+                            <a href="2024-2025.html" class="annee">2024-2025</a>
+                        </div>
+                    </div>
+            </li>
+            <li><a href="parcours.html">PARCOURS</a></li>
+        </ul>
+    </header>""
+    <section>
+        <div class="profil">
+            <h1>Mon Profil</h1>
+            <img src="Unknown.jpeg" alt="Photographie">
+            <h2>Photographe !</h2>
+            <p>Bientot développeur Web :)</p>
+            <button class="contact">Contact</button>
+        </div>
+    </section>
+    <footer>
+        <h2>Voir plus !</h2>
+        <ul>
+            <li><a href="annee.html">CATEGORIE</a></li>
+            <li><a href="parcours.html">PARCOURS</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
